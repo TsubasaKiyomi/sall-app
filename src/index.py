@@ -20,6 +20,6 @@ print(max(class_member_score_list))
 print(min(class_member_score_list))
 
 
-# 平均値はまずsum関数で合計値を出し要素数（長さ）を取得するlen関数で求める
+# 平均値はまずsum関数で合計値を出し要素数（長さ）(要素数の数（９）で割る)を取得するlen関数で求める
 ave = sum(class_member_score_list) / len(class_member_score_list)
 print(ave)
