@@ -1,35 +1,32 @@
-# 得点＿計算
-
-# class_member_score_list = [100, 21, 73, 85, 99, 12, 55, 65, 43]
-
-l = [100, 21, 73, 85, 99, 12, 55, 65, 43]
+# l = [100, 21, 73, 85, 99, 12, 55, 65, 43]
 
 
-# print(max(l))
+# def num1():
+#     s = max(l)
+#     return s
 
 
-def num1():
-    s = max(l)
-    return s
+# def num2():
+#     s = min(l)
+#     return s
 
 
-result = num1()
-# print(result)
+# def num3():
+#     s = sum(l) / len(l)
+#     return s
 
 
-def num2():
-    s = min(l)
-    return s
+def max_func():
+    best = max([100, 21, 73, 85, 99, 12, 55, 65, 43])
+    return best
 
 
-result = num2()
-# print(result)
+def min_func():
+    worst = min([100, 21, 73, 85, 99, 12, 55, 65, 43])
+    return worst
 
 
-def num3():
-    s = sum(l) / len(l)
-    return s
-
-
-result = num3()
-# print(result)
+def ave():
+    average = sum([100, 21, 73, 85, 99, 12, 55, 65, 43]) / \
+        len([100, 21, 73, 85, 99, 12, 55, 65, 43])
+    return average
