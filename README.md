@@ -1,8 +1,10 @@
-#### 問題
+# 問題
 
 ```
 
-class_member_score_list = [100, 21, 73, 85, 99, 12, 55, 65, 43]のリストから最大値、最小値、平均値を、score_calculation.py に関数定義をし、index.py に関数定義した最大値、最小値、平均値を実行させる。
+class_member_score_list = [100, 21, 73, 85, 99, 12, 55, 65, 43]
+のリストから最大値、最小値、平均値をscore_calculation.py に関数定義をし
+index.py に関数定義した最大値、最小値、平均値を実行させる。
 
 ```
 
